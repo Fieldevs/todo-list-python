@@ -28,9 +28,27 @@ Clone the repository:
 ```bash
 git clone https://github.com/Fieldevs/todo-list-python.git
 cd todo-list-python
+
+```
 python level5_to_do_list.py
 
-📦 Project Structure
+```
+=== To-do List ===
+1. Add Task
+2. Show Tasks
+3. Mark Task as Done
+4. Remove Task
+5. Quit
+
+Choose an option (1-5): 1
+Enter a new task: Study Python
+Task added successfully!
+
+Choose an option (1-5): 2
+Your tasks:
+1. Study Python [Pending]
+
+
 todo-list-python/
 ├─ README.md
 ├─ .gitignore
@@ -44,3 +62,5 @@ todo-list-python/
 ├─ level4_to_do_list_commented.py
 ├─ level5_to_do_list.py
 └─ level5_to_do_list_commented.py
+
+
